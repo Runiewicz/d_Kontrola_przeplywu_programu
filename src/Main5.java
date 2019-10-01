@@ -1,20 +1,17 @@
+    public class Main5 {
 
-public class Main5 {
-
-	public static void main(String[] args) {
-		int resultFor = 0;
-		int resultWhile = 0;
-        for (int i = 0; i < 10; i++) {
-          resultFor += 1;
-			System.out.println(resultFor);
+    public static void main(String[] args) {
+        int resultFor = 0;
+        int resultWhile = 0;
+        for (int i = 0; i <= 10; i++)
+            resultFor += i;
+        {System.out.println(resultFor);
         }
-			int i = 0;
-        	while (i <= 10) {
-        	resultWhile = + i;
-        	System.out.println(resultWhile);
-			i++;
-
-			}
-	}
-	}
+        int i = 0;
+        while (i <= 10) {
+            resultWhile += i;
+            i++;}
+        System.out.println(resultWhile);
+    }
+}
 
